@@ -5,10 +5,11 @@ import { ALUMNI } from '../shared/alumnis.js'
 function RenderAlumni({alumni}) {
     return (
         <Card className='box2'>
-            <CardImg width="70%" height="20%" src={alumni.image} alt={alumni.name}></CardImg>
+            <CardImg src="/assests/images/lnmiit.jpg" alt="lnmiit" className='img2'></CardImg>
+            <img src={alumni.image} alt={alumni.name} className='img1'/>
             <CardBody>
-                <CardText className='cardtext'>{alumni.name}</CardText>
-                <CardText className='cardtext'>{alumni.batch}</CardText>
+                <CardText>{alumni.name}</CardText>
+                <CardText>{alumni.batch}</CardText>
             </CardBody>
         </Card>
     )
