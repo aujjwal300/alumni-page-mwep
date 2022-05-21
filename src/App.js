@@ -1,6 +1,12 @@
-function App() {
+import React from 'react';
+import Main from './components/MainComponent.js';
+import './App.css';
+
+const App = () => {
   return (
-    <h1>Alumni Page</h1 >
+    <div>
+      <Main />
+    </div>
   )
 }
 
