@@ -6,8 +6,9 @@ class Main extends Component {
     render() {
         return (
             <div className='page'>
-                    <Header />
-                    <AlumniPage />
+                <Header />
+                <AlumniPage />
+                {/* <Footer/> */}
             </div>
         )
     }

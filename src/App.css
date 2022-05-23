@@ -5,6 +5,7 @@
     height: 98.6%;
     /* background: #ffffc919; */
     background-image: radial-gradient(circle, #fffcfc,#fffcfc, #f9feffaf, #e4f3ff,#e4f3ff, #b1f5fe);
+    /* comment background-image line if don't want blue effect in background */
     box-shadow: 5px 8px 9px 9px rgba(0, 0, 0, 0.35);
     border-radius: 15px;
 }
